@@ -1,0 +1,7 @@
+<Files *>
+AuthType WebAuth
+require user ceatkins
+satisfy any
+order allow,deny
+</Files>
+
