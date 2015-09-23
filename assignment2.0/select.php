@@ -2,7 +2,7 @@
     <h1> SELECT Statements </h1>
 <nav>
     <ol> <a href="query1.php">Query 1</a> <print>  SELECT pmkNetId FROM tblTeachers; </print> <a href="q01.sql">q01.SQL</a> </ol> 
-    <ol><a href="query02.php">Query 2 </a> <print> SELECT fldDepartment FROM tblCourses WHERE fldCourseName LIKE 'Introduction%'; </print> <a href="q02.sql">q02.SQL</a></ol> 
+    <ol><a href="query2.php">Query 2 </a> <print> SELECT fldDepartment FROM tblCourses WHERE fldCourseName LIKE 'Introduction%'; </print> <a href="q02.sql">q02.SQL</a></ol> 
      <ol><a href="q03.php">Query 3 </a><print> SELECT * FROM tblSections WHERE fldBuilding = "KALKIN" AND fldStart = '13:10:00'; </print> <a href="q03.sql">q03.SQL</a> </ol> 
   <ol><a href="q04.php">Query 4 </a><print> SELECT * FROM tblCourses WHERE fldCourseName = 'Database Design for the Web'; </print> <a href="q04.sql">q04.SQL</a> </ol> 
   <ol><a href="q05.php">Query 5 </a><print> SELECT fldFirstName, fldLastName FROM tblTeachers WHERE pmkNetId Like "r%" AND pmkNetId LIKE '%o'; </print> <a href="q05.sql">q05.SQL</a> </ol> 
